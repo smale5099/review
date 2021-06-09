@@ -1,0 +1,141 @@
+
+.review {
+    position: relative;
+    display: flex;
+    padding: 10px 10px;
+}
+
+.review__leave {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.all__number {
+    vertical-align: bottom;
+    font-size: 20px;
+    font-weight: 20;
+    padding-left: 10px;
+}
+
+.review__all {
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.review__back {
+    font-size: 37px;
+}
+
+.sorting__text {
+    font-size: 20px;
+}
+
+.sorting {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.filter__arrow {
+    font-size: 32px;
+}
+
+.filter__text {
+    margin: auto 0 auto 10px;
+    font-size: 24px;
+    opacity: 70%;
+}
+
+.rating__table span {
+    padding: 0;
+    font-size: 24px;
+    margin: 0 3px;
+    line-height: 1;
+    color: white;
+    text-shadow: 1px 1px #bbb;
+}
+
+.rating__table > span:before {
+    content: '★';
+}
+
+.rating__table > span.active {
+    color: black;
+    text-shadow: 1px 1px #c60;
+}
+
+.sorting__filter {
+    display: flex;
+}
+
+.sorting__rating {
+    display: flex;
+}
+
+.rating__score {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.comment {
+    padding: 10px 10px;
+}
+
+.data__date {
+    font-size: 24px;
+    margin-left: auto;
+    opacity: 70%;
+}
+
+.comment__data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment__name {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.comment__about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__rating {
+    display: flex;
+    font-size: 24px;
+    width: 140px;
+    justify-content: space-between;
+}
+
+.about__info {
+    margin: auto 0 auto 0;
+}
+
+
+.comment__text {
+    opacity: 70%;
+    margin: 20px 0;
+}
+
+.comment__sub-text {
+    font-size: 16px;
+    opacity: 50%;
+    margin: 15px 0;
+}
+
+.img {
+    display: flex;
+    justify-content: space-between;
+}
